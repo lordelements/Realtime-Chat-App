@@ -11,8 +11,10 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #1488cc;
-  background: linear-gradient(to left, #283593, #1976d2);
+  /* background: #1488cc;
+  background: linear-gradient(to left, #283593, #1976d2); */
+  background: url("assets/img/Colored_Shapes.svg") no-repeat;
+  background-size: cover;
   padding: 0 10px;
 }
 .wrapper{
