@@ -35,10 +35,13 @@
               <a class="icons" href="#"><i class="fa-brands fa-github"></i></a>
               <a class="icons" href="#"><i class="fa fa-facebook"></i></a>
             <h5><?php echo $row['email']; ?></h5>
-            
+
       <a href='updateusers.php? user_id = $row[user_id]'  class="edit-icon">
       <!-- <a href="updateusers.php? user_id= <?php echo  $row['user_id'] ?>"  class="edit-icon"> -->
         <i class="fa-solid fa-pen-to-square"></i>
+      </a>
+      <a href="php/deleteuser.php? deleteuser_id = $row[user_id]'  class="edit-icon">
+       <i class="fa-solid fa-trash-can"></i>
       </a>
       </div>
             

@@ -54,7 +54,7 @@ if (isset($_POST['update'])) {
         echo '<script>alert("Your details is updated successfully")</script>';
         header('location: userdetails.php');
     }else {
-        die('Connection Failed : '.$con->connect_error);
+        die('Connection Failed : '.$conn->connect_error);
     }
 }
 ?>
