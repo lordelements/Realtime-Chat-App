@@ -19,7 +19,9 @@
           ?>
           <img src="php/images/<?php echo $row['img']; ?>" alt="">
           <div class="details">
+            <a href="usersdetails.php? user_id= <?php echo  $row['user_id'] ?>" class="back-icon">
             <span><?php echo $row['fname']. " " . $row['lname'] ?></span>
+            </a>
             <p><?php echo $row['status']; ?></p>
           </div>
         </div>

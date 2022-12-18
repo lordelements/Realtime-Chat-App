@@ -11,8 +11,6 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  /* background: #1488cc;
-  background: linear-gradient(to left, #283593, #1976d2); */
   background: url("assets/img/Colored_Shapes.svg") no-repeat;
   background-size: cover;
   padding: 0 10px;
@@ -24,7 +22,7 @@ body{
   border-radius: 16px;
   box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
               0 32px 64px -48px rgba(0,0,0,0.5);
-              background: rgba(255, 255, 255, 0.05);
+              background: rgba(255, 255, 255, 0.171);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   box-shadow: inset -1px -1px -0.12px rgba(255, 255, 255, 0.4),
       1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -58,7 +56,11 @@ body{
 }
 .form form .name-details{
   display: flex;
+ 
 }
+/* .details span{
+  color: white;
+} */
 .form .name-details .field:first-child{
   margin-right: 10px;
 }
@@ -92,9 +94,9 @@ body{
 .form form .button input{
   height: 45px;
   border: none;
-  color: #fff;
+  color: #333;
   font-size: 17px;
-  background: #333;
+  background: rgb(49, 255, 159);
   border-radius: 5px;
   cursor: pointer;
   margin-top: 13px;
@@ -149,12 +151,13 @@ body{
   align-items: center;
 }
 :is(.users, .users-list) .content .details{
-  color: #000;
+  color: white;
   margin-left: 20px;
 }
 :is(.users, .users-list) .details span{
   font-size: 18px;
   font-weight: 500;
+  color: white;
 }
 .users header .logout{
   display: block;
@@ -255,7 +258,7 @@ body{
   padding: 18px 30px;
 }
 .chat-area header .back-icon{
-  color: #333;
+  color: white;
   font-size: 18px;
 }
 .chat-area header img{
